@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Potential Energy Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="potentialEnergyRadio" name="variables" checked>
+  <label for="potentialEnergyRadio">Potential Energy</label>
+
+  <input type="radio" id="massRadio" name="variables">
+  <label for="massRadio">Mass</label>
+
+  <input type="radio" id="heightfromEarthsSurfaceRadio" name="variables">
+  <label for="heightfromEarthsSurfaceRadio">Height from Earth's Surface</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(m) Mass (kg)</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">(h) Height from Earth's Surface (m)</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
